@@ -1,5 +1,70 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+  
+  }
+  body {
+    min-height: 100dvh;
+    background:hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+  
+  p{
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+  }
+  a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+  }
+span{
+    color: hsl(75, 94%, 57%);
+}
+  aside {
+    width: 300px;
+    height: 500px;
+    background-color:hsl(0, 0%, 12%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+  }
+  aside img {
+    width: 80px;
+    border-radius: 50%;
+   
+  }
+  #links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    color: hsl(0, 0%, 100%);
+     padding: 10px 0;
+    
+  }
+  .link{
+    background-color: rgb(73, 73, 73);
+    width: 220px;
+    text-align: center;
+    padding: 6px ;
+    border-radius: 6px;
+    cursor: pointer;
+    
+  }
+  #perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
